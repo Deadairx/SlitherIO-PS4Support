@@ -95,7 +95,7 @@
             var optionsBtn = ps4.buttons[9].value; // map "Options" button
 
             // Start Game
-            if (!window.play_btn.disabled && (optionsBtn || xbtn)) {
+            if (!window.play_btn.disabled && optionsBtn) {
                 window.play_btn.elem.onclick();
             }
 
